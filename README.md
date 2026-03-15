@@ -1,160 +1,176 @@
-# AI- | 跨境营销AI技能开源库 🚀
+# OpenClaw 跨境AI能力开源库 / OpenClaw Cross-Border AI Skills Hub 🚀
 
-> **Cross-border Marketing AI Skills** | OpenClaw Skills | AI Agent Workflows | 独立站 | 海外增长
+> 单仓库、多项目、陆续开源  
+> One repository, multiple projects, incremental open-source releases
 
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skills-blue)](https://openclaw.ai)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/jovian6661/AI-/pulls)
+[![Agent Workflow](https://img.shields.io/badge/Agent-Workflow-6f42c1)](#)
+[![Cross-border](https://img.shields.io/badge/Cross--border-Marketing-orange)](#)
+[![Global Growth](https://img.shields.io/badge/Global-Growth-ff6b6b)](#)
+[![B2B Leads](https://img.shields.io/badge/B2B-Lead_Generation-0ea5e9)](#)
+[![Independent Site](https://img.shields.io/badge/Independent-Website-14b8a6)](#)
+[![AI SEO](https://img.shields.io/badge/AI-SEO-success)](#)
+[![Content Ops](https://img.shields.io/badge/Content-Operations-22c55e)](#)
+[![Social Intelligence](https://img.shields.io/badge/Social-Intelligence-f59e0b)](#)
+[![CRM Sync](https://img.shields.io/badge/CRM-Sync-3b82f6)](#)
+[![Compliance](https://img.shields.io/badge/Export-Compliance-ef4444)](#)
+[![Version](https://img.shields.io/badge/Version-v5.1-black)](#)
+[![Updated](https://img.shields.io/badge/Updated-2026--03--15-8b5cf6)](#)
+[![Language](https://img.shields.io/badge/Docs-Bilingual-10b981)](#)
+[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 
 ---
 
-## 这是什么 / What's This
+## 1) 项目定位 / What This Repo Is
 
-An open-source collection of **cross-border marketing skills** for **AI assistants** and **OpenClaw-style agent workflows** — built for **overseas growth**, **cross-border independent websites (独立站)**, **international social media**, and **global marketing operations**.
+本仓库聚焦 **跨境电商 / 跨境出海 / 独立站增长 / B2B外贸获客** 的 AI 能力开源，覆盖：
+- AI数字员工能力模块（Skills）
+- Agent工作流模板（Workflows）
+- 场景化SOP与执行清单（Playbooks）
 
-本仓库开源 **跨境营销相关的 Skill / Prompt / Workflow**，用于丰富 **AI 助理**（OpenClaw 类型编排/调度）在真实业务里的落地能力：从建站、内容生产、SEO优化，到社媒增长与自动化运营。
+This repository open-sources practical AI skills for:
+- cross-border eCommerce
+- global expansion / overseas growth
+- independent website growth
+- B2B lead generation and conversion
 
 ---
 
-## 仓库目录 / Repository Structure
+## 2) 适用场景 / Use Cases
 
+- 跨境电商选品、调研、内容与投放协同
+- 独立站 SEO、内容增长、流量分析
+- B2B 海外线索挖掘、销售跟进、CRM同步
+- 社媒矩阵（YouTube / TikTok / X / Facebook）内容采集与需求洞察
+- 出口合规筛查、合同/单据审核、风险预警
+
+---
+
+## 3) 能力概览 / Skills Overview
+
+### A. 获客与线索 / Lead Generation
+- B2B 谷歌地图自动化
+- 领英自动化获客
+- Facebook 自动化获客
+- AI 海外线索挖掘
+
+### B. 内容与洞察 / Content & Insight
+- YouTube / TikTok / X / Facebook 媒体采集
+- 评论区需求挖掘
+- 搜索引擎情报分析
+- 浏览器信息提取
+
+### C. SEO与站点增长 / SEO & Website Growth
+- SEO 数据挖掘
+- AI 产品描述自动生成
+- 独立站流量分析
+
+### D. 成交与经营 / Conversion & Operations
+- AI 智能销售
+- 邮件自动跟进
+- 自动报价单生成
+- 外贸报价与利润计算
+- CRM 数据同步
+- 数据可视化仪表盘
+
+### E. 风险与合规 / Risk & Compliance
+- 出口合规风险筛查（CE / UL / FDA 等）
+- AI 合同/单据智能审核
+- 供应商/工厂信息采集
+- 展会与会议信息监控
+- 社媒舆情情报
+
+---
+
+## 4) 仓库结构 / Repository Structure
+
+```text
+repo/
+├─ project-a/
+│  ├─ README.md
+│  ├─ USAGE.md
+│  └─ CHANGELOG.md
+├─ project-b/
+│  ├─ README.md
+│  ├─ USAGE.md
+│  └─ CHANGELOG.md
+└─ README.md
 ```
-AI-/
-│
-├── AI批量生图生视频/                    ← AI图片+视频批量生产技能
-│   ├── AI批量生图生视频技能文件.zip
-│   └── README.md
-│
-├── 跨境独立站/                          ← 独立站建站技能包（9套OpenClaw技能）
-│   ├── astro-website-skills.zip
-│   ├── OpenClaw新手使用指南独立站.docx
-│   └── README.md
-│
-├── LICENSE
-└── README.md                            ← 你正在看的文件
-```
+
+**规则 / Rule**：
+- 子项目文档放子目录（README / USAGE / CHANGELOG）
+- Do not dump all text files into repository root
 
 ---
 
-## 技能概览 / Skills Overview
-
-| 技能包 | 说明 | 进入 |
-|-------|------|------|
-| **AI批量生图生视频** | AI图片+视频批量生产，去AI味，写实风格，数字人素材 | [查看](./AI批量生图生视频/) |
-| **跨境独立站建站** | 9套OpenClaw技能，全自动生成外贸/企业/品牌网站 | [查看](./跨境独立站/) |
-| *更多技能持续更新...* | | |
-
----
-
-## 包含什么 / What's Inside
-
-- ✅ **Marketing Skills**：跨境营销可复用 Skill（可复制、可二次开发）
-- ✅ **Workflow Templates**：面向 OpenClaw / Agent 的任务编排模板
-- ✅ **Practical Assets**：实战常用模板、SOP、质检清单
-- ✅ **Examples**：输入输出示例（拿来就能用）
-
-## 不包含什么 / What's NOT Inside
-
-- ❌ 本仓库**不**开源任何商业产品源码
-- ❌ 本仓库**不**包含任何密钥、账号密码、AK/SK、Token 等敏感信息
-- ❌ 你看到的只是 **Skills / Templates / Playbooks**
-
----
-
-## 适用场景 / Use Cases
-
-### 适用人群
-
-- ✅ 跨境独立站团队（Shopify / WooCommerce / Astro 等）
-- ✅ 跨境自媒体团队（YouTube / TikTok / Instagram / X）
-- ✅ 跨境营销团队（内容、SEO、投放、增长）
-- ✅ 海外增长负责人（增长策略、竞品研究）
-- ✅ AI营销探索者（AI Agent、自动化工作流）
-
-### 常见场景
-
-| 场景 | 说明 |
-|-----|------|
-| **AI建站** | 零代码建站、企业官网、B2B产品站、品牌官网 |
-| **AI SEO** | 关键词聚类、内容大纲、批量文章生成 |
-| **AI生图** | 批量生成写实图片、去AI味、数字人素材 |
-| **AI生视频** | 图转视频、分镜策划、批量视频生产 |
-| **社媒增长** | 短视频脚本、选题库、标题Hook |
-| **自动化运营** | 任务拆解、批量执行、数据汇总 |
-
----
-
-## 快速开始 / Quick Start
+## 5) 快速开始 / Quick Start
 
 ```bash
-# 1. 克隆仓库
-git clone https://github.com/jovian6661/AI-.git
-
-# 2. 进入目录
-cd AI-
-
-# 3. 选择你需要的技能包，按各目录下的 README.md 操作
+git clone <your-repo-url>
+cd <repo-name>
+# Pick one subproject and follow its README/USAGE
 ```
 
-或者直接下载：点击页面右上角绿色「Code」按钮 → 「Download ZIP」
+建议先从一个高频场景开始（如线索挖掘或 SEO），跑通后再扩展。
 
 ---
 
-## 推荐工具 / Recommended Tools（可选）
+## 6) 文档标准 / Documentation Standard
 
-以下工具可配合本技能包使用（非本仓库开源内容，仅作推荐）：
+标准能力卡格式：
 
-| 工具 | 定位 | 链接 |
-|-----|------|------|
-| **NicheMarketFinder** | 市场洞察、竞品扫描、关键词聚类 | https://nichemarketfinder.com |
-| **GemgenAI** | 视频情报、爆款Hook拆解、内容增长 | https://www.gemgen.vip |
-| **AISEO.buzz** | AI SEO、智能客服、海外增长 | https://aiseo.buzz |
+`能力名称 | 引导输入 | AI工作流程与产出结果`
 
----
-
-## SEO 关键词 / Keywords
-
-**English:**
-`cross-border marketing` `AI marketing automation` `OpenClaw skills` `overseas growth` `independent website` `B2B lead generation` `SEO content automation` `TikTok YouTube marketing` `keyword clustering` `market intelligence` `AI website builder` `AI image generator` `AI video generator` `digital human` `no-code website`
-
-**中文：**
-`跨境营销` `出海营销` `AI营销` `OpenClaw技能` `海外增长` `独立站` `AI建站` `AI生图` `AI视频` `数字人` `零代码建站` `SEO自动化` `内容批量生产` `跨境自媒体` `竞品分析` `关键词聚类`
+示例：
+- AI海外线索挖掘 | 行业+地区+职位关键词 | 自动抓取→清洗去重→标签评分→输出优先级线索池
 
 ---
 
-## 贡献 / Contribution
+## 7) 更新策略 / Release Strategy
 
-欢迎通过 PR 提交：
-
-- 新的 Skill 文件（建议包含：目标、输入、输出、验收标准）
-- 更好的模板与 SOP
-- 更高质量的示例（需匿名化/去敏处理）
+- 采用“陆续开源”节奏：按业务价值分批发布
+- 每次更新记录：变更内容、影响范围、版本说明
+- 优先开源：高复用、高价值、高可执行模块
 
 ---
 
-## 安全声明 / Security
+## 8) 贡献指南 / Contributing
 
-- ⚠️ 严禁提交任何密钥、Token、账号密码、AK/SK
-- ⚠️ 敏感信息必须通过环境变量或本地 `.env` 管理
-- ⚠️ 使用 Skills 生成内容时，请遵守平台政策与当地法规
+欢迎提交：
+- 新能力模块（Skill）
+- 场景模板（Template）
+- 使用示例与最佳实践（Best Practices）
 
----
-
-## 联系我们 / Contact
-
-| 渠道 | 信息 |
-|-----|------|
-| 📧 Email | vip@bobaicom.cn |
-| 📱 公众号 | **博屿博跨境**（发送「Skill」领取资料） |
-| 🌐 海外 | https://aiseo.buzz |
-| 🐛 Issue | [提交问题](https://github.com/jovian6661/AI-/issues) |
+建议在 PR 中包含：
+- 场景说明
+- 输入/输出样例
+- 风险边界与验收口径
 
 ---
 
-## Star History
+## 9) 安全声明 / Security
 
-如果这个项目对你有帮助，请给一个 ⭐ Star 支持！
+本仓库不包含：
+- 商业源码
+- Token / 密钥 / 账号密码
+- 客户敏感数据
+
+Please keep secrets in local `.env` and never commit them.
 
 ---
 
-<p align="center">Made with ❤️ for 跨境人 & AI营销探索者</p>
+## 10) SEO Keywords（场景增强版）
+
+### 中文关键词
+跨境电商、跨境出海、海外增长、独立站、B2B外贸、外贸获客、海外线索挖掘、AI数字员工、AI虚拟员工、AI数字组织、OpenClaw、Agent工作流、自动化运营、SEO优化、关键词挖掘、内容增长、社媒运营、YouTube营销、TikTok营销、X营销、Facebook营销、邮件跟进、CRM同步、报价自动化、出口合规、合同审核、风控预警
+
+### English Keywords
+cross-border eCommerce, global expansion, overseas growth, independent website, B2B lead generation, AI sales automation, OpenClaw skills, AI digital workforce, AI virtual employees, AI organization, agent workflow, SEO automation, keyword research, content operations, social media intelligence, YouTube growth, TikTok marketing, X marketing, Facebook growth, CRM sync, quotation automation, export compliance, contract review, risk monitoring
+
+---
+
+## 11) 社区与资料 / Community & Resources
+
+- 公众号：**博屿博跨境**
+- 资料关键词：**Skill**
+- 仓库更新策略：单仓库、多项目、陆续开源
