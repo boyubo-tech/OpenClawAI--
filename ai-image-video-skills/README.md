@@ -3,22 +3,24 @@
 > AI图片生成 | AI视频生成 | 批量生产 | 去AI味 | 写实风格 | 博主素材
 
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skills-blue)](https://openclaw.ai)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
-**关键词：** `AI生图` `AI视频生成` `AI绘画` `Midjourney提示词` `Stable Diffusion` `AI数字人` `AI博主` `批量生成` `去AI味` `写实风格` `短视频素材` `数字人素材` `AI Image Generator` `AI Video Generator` `Text to Image` `Text to Video`
+[![License](https://img.shields.io/badge/License-MIT-green)](../LICENSE)
 
 ---
 
 ## 项目介绍
 
-这是一套 **AI图片+视频批量生产** 的技能文件，专门解决：
+这是一套 **AI 图片 + AI 视频批量生产**的技能文件，专门解决内容创作者最头疼的四个问题：
 
-- ❌ AI生成的图片太假、太塑料
-- ❌ 数字人一眼就能看出是AI
-- ❌ 无法批量规模化生产
-- ❌ 图片转视频人物不一致
+- ❌ AI 生成的图片太假、太塑料，一眼就是 AI 绘画
+- ❌ 数字人 / AI 博主一眼就能看出是 AI
+- ❌ 单张出图太慢，没法批量规模化生产
+- ❌ 图片转视频时，人物前后不一致
 
-**用这套技能，让AI生成的内容「去AI味」，看起来像真人！**
+**用这套技能，让 AI 生成的内容「去 AI 味」，看起来像真人拍的。**
+
+它同时适配主流的文生图和文生视频工具：写提示词（Prompt）的方法对 Midjourney、Stable Diffusion 这类工具都通用，视频部分则按博主类型给出分镜和动线方案。
+
+**目标是让你批量产出短视频素材和数字人素材，而不是一张一张慢慢调。**
 
 ---
 

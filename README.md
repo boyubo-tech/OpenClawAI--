@@ -1,176 +1,161 @@
-# OpenClaw 跨境AI能力开源库 / OpenClaw Cross-Border AI Skills Hub 🚀
+# OpenClaw Skills Hub
 
-> 单仓库、多项目、陆续开源  
-> One repository, multiple projects, incremental open-source releases
+**开箱即用的 AI Agent 技能包 · 面向跨境出海与内容生产**
 
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-Skills-blue)](https://openclaw.ai)
-[![Agent Workflow](https://img.shields.io/badge/Agent-Workflow-6f42c1)](#)
-[![Cross-border](https://img.shields.io/badge/Cross--border-Marketing-orange)](#)
-[![Global Growth](https://img.shields.io/badge/Global-Growth-ff6b6b)](#)
-[![B2B Leads](https://img.shields.io/badge/B2B-Lead_Generation-0ea5e9)](#)
-[![Independent Site](https://img.shields.io/badge/Independent-Website-14b8a6)](#)
-[![AI SEO](https://img.shields.io/badge/AI-SEO-success)](#)
-[![Content Ops](https://img.shields.io/badge/Content-Operations-22c55e)](#)
-[![Social Intelligence](https://img.shields.io/badge/Social-Intelligence-f59e0b)](#)
-[![CRM Sync](https://img.shields.io/badge/CRM-Sync-3b82f6)](#)
-[![Compliance](https://img.shields.io/badge/Export-Compliance-ef4444)](#)
-[![Version](https://img.shields.io/badge/Version-v5.1-black)](#)
-[![Updated](https://img.shields.io/badge/Updated-2026--03--15-8b5cf6)](#)
-[![Language](https://img.shields.io/badge/Docs-Bilingual-10b981)](#)
+> Practical AI Agent skills for cross-border eCommerce, B2B websites and content production.
+
 [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+[![Skills](https://img.shields.io/badge/Skills-11-blue)](#仓库里有什么)
+[![Language](https://img.shields.io/badge/Docs-中文%20%7C%20English-brightgreen)](#)
 
 ---
 
-## 1) 项目定位 / What This Repo Is
+## 这是什么
 
-本仓库聚焦 **跨境电商 / 跨境出海 / 独立站增长 / B2B外贸获客** 的 AI 能力开源，覆盖：
-- AI数字员工能力模块（Skills）
-- Agent工作流模板（Workflows）
-- 场景化SOP与执行清单（Playbooks）
+OpenClaw 是一套 AI Agent 工具。**Skills（技能包）就是交给 Agent 的「工作说明书」**：
 
-This repository open-sources practical AI skills for:
-- cross-border eCommerce
-- global expansion / overseas growth
-- independent website growth
-- B2B lead generation and conversion
+- 没有技能 → Agent 只会聊天
+- 装上技能 → Agent 会按说明书，帮你把一件具体的事做完
+
+本仓库把我们自己在跨境业务里用的技能包**陆续开源**出来。装上就能用，不需要编程。
+
+**适合谁**：跨境电商 / 外贸 B2B / 独立站运营 / 内容创作者，尤其是**不想写代码**的人。
 
 ---
 
-## 2) 适用场景 / Use Cases
+## 仓库里有什么
 
-- 跨境电商选品、调研、内容与投放协同
-- 独立站 SEO、内容增长、流量分析
-- B2B 海外线索挖掘、销售跟进、CRM同步
-- 社媒矩阵（YouTube / TikTok / X / Facebook）内容采集与需求洞察
-- 出口合规筛查、合同/单据审核、风险预警
+目前有两个技能包，都是**下载即用**：
 
----
-
-## 3) 能力概览 / Skills Overview
-
-### A. 获客与线索 / Lead Generation
-- B2B 谷歌地图自动化
-- 领英自动化获客
-- Facebook 自动化获客
-- AI 海外线索挖掘
-
-### B. 内容与洞察 / Content & Insight
-- YouTube / TikTok / X / Facebook 媒体采集
-- 评论区需求挖掘
-- 搜索引擎情报分析
-- 浏览器信息提取
-
-### C. SEO与站点增长 / SEO & Website Growth
-- SEO 数据挖掘
-- AI 产品描述自动生成
-- 独立站流量分析
-
-### D. 成交与经营 / Conversion & Operations
-- AI 智能销售
-- 邮件自动跟进
-- 自动报价单生成
-- 外贸报价与利润计算
-- CRM 数据同步
-- 数据可视化仪表盘
-
-### E. 风险与合规 / Risk & Compliance
-- 出口合规风险筛查（CE / UL / FDA 等）
-- AI 合同/单据智能审核
-- 供应商/工厂信息采集
-- 展会与会议信息监控
-- 社媒舆情情报
+| 技能包 | 干什么 | 技能数 |
+| --- | --- | --- |
+| **[跨境独立站建站](cross-border-website-skills/)** | 从品牌资料到上线，AI 全自动生成一个外贸网站 | 9 个 |
+| **[AI 生图生视频](ai-image-video-skills/)** | 批量生成「去 AI 味」的图片提示词，并策划短视频分镜 | 2 套 |
 
 ---
 
-## 4) 仓库结构 / Repository Structure
+## 技能包一：跨境独立站建站
 
-```text
-repo/
-├─ project-a/
-│  ├─ README.md
-│  ├─ USAGE.md
-│  └─ CHANGELOG.md
-├─ project-b/
-│  ├─ README.md
-│  ├─ USAGE.md
-│  └─ CHANGELOG.md
-└─ README.md
-```
+面向**外贸 B2B、跨境电商、独立站**的自动建站流水线。给它品牌资料和竞品截图，它按顺序跑完 9 步，最后吐出一个可以上线的静态网站。
 
-**规则 / Rule**：
-- 子项目文档放子目录（README / USAGE / CHANGELOG）
-- Do not dump all text files into repository root
+适用场景：企业官网、B2B 产品目录站、外贸独立站、品牌官网、工厂官网、产品展示站。
+
+**9 个技能（按执行顺序）：**
+
+| # | 技能 | 干什么 |
+| --- | --- | --- |
+| 01 | `dispatcher` | 总调度 —— 判断你的需求，把活分给下面 8 个 |
+| 02 | `style-analyzer` | 解析品牌资料和竞品网站截图，定出视觉风格 |
+| 03 | `seo-planner` | 基于市场数据做 SEO 关键词策略 |
+| 04 | `architecture-planner` | 结合关键词和品牌，规划网站架构和页面清单 |
+| 05 | `art-director` | 为每个页面出美术设计规范 |
+| 06 | `traffic-sales-planner` | 规划流量入口和转化路径（AI 客服 / 在线询盘） |
+| 07 | `page-producer` | 按设计规范生成每个页面的 HTML |
+| 08 | `quality-inspector` | 逐项质检生成的页面 |
+| 09 | `html-merger` | 把质检通过的页面合并成完整站点 |
+
+**技术栈**：Astro 静态站点 · 零代码 · 生成的站点可直接部署到 GitHub Pages / Netlify / Vercel 等。
+
+📖 [技能包详细说明](cross-border-website-skills/README.md) · [新手安装教程](cross-border-website-skills/TUTORIAL.md)
 
 ---
 
-## 5) 快速开始 / Quick Start
+## 技能包二：AI 生图生视频
+
+面向**内容创作者**的两套技能：一套解决「AI 生成的图一眼假」，一套解决「短视频不知道怎么拍」。
+
+**① 去 AI 味提示词批量优化器**
+
+批量生成图片提示词，并针对常见的「AI 感」做优化 —— 让出图更像真实拍摄。带细则库和自进化反馈机制，用得越久越贴合你的风格。
+
+**② 博主类型视频分镜策划**
+
+按博主类型给出分镜方案，目前覆盖两类：
+
+- **A 型 · 户外边走边说** —— 动线策划
+- **B 型 · 室内固定位置** —— 分镜策划
+
+📖 [技能包详细说明](ai-image-video-skills/README.md)
+
+---
+
+## 快速开始
 
 ```bash
-git clone <your-repo-url>
-cd <repo-name>
-# Pick one subproject and follow its README/USAGE
+# 1. 克隆本仓库
+git clone https://github.com/boyubo-tech/OpenClawAI--.git
+cd OpenClawAI--
+
+# 2. 挑一个技能包，把里面的技能复制到 OpenClaw 的技能目录
+mkdir -p ~/.openclaw/skills
+cp -r cross-border-website-skills/skills/astro-website-skills/* ~/.openclaw/skills/
+
+# 3. 重启 OpenClaw Gateway 让技能生效
+openclaw gateway stop && openclaw gateway start
 ```
 
-建议先从一个高频场景开始（如线索挖掘或 SEO），跑通后再扩展。
+装好后，直接跟 Agent 说「帮我建一个外贸网站」，它就会自动调用对应的技能。
+
+> **不想用命令行？** 每个技能包目录里都有一个 `.zip`，下载解压后手动复制进去就行。
+> 详细步骤见 [新手安装教程](cross-border-website-skills/TUTORIAL.md)。
 
 ---
 
-## 6) 文档标准 / Documentation Standard
+## 目录结构
 
-标准能力卡格式：
+```text
+.
+├── README.md                          你在这里
+├── LICENSE
+├── cross-border-website-skills/       技能包一：跨境独立站建站
+│   ├── README.md                      详细说明
+│   ├── TUTORIAL.md                    新手安装教程
+│   ├── astro-website-skills.zip       打包下载
+│   ├── openclaw-quickstart.docx       图文快速上手
+│   └── skills/                        技能文件（可直接阅读）
+│       └── astro-website-skills/01-…09-/
+└── ai-image-video-skills/             技能包二：AI 生图生视频
+    ├── README.md
+    ├── ai-image-video-skills.zip
+    └── skills/                        技能文件（可直接阅读）
+```
 
-`能力名称 | 引导输入 | AI工作流程与产出结果`
-
-示例：
-- AI海外线索挖掘 | 行业+地区+职位关键词 | 自动抓取→清洗去重→标签评分→输出优先级线索池
-
----
-
-## 7) 更新策略 / Release Strategy
-
-- 采用“陆续开源”节奏：按业务价值分批发布
-- 每次更新记录：变更内容、影响范围、版本说明
-- 优先开源：高复用、高价值、高可执行模块
-
----
-
-## 8) 贡献指南 / Contributing
-
-欢迎提交：
-- 新能力模块（Skill）
-- 场景模板（Template）
-- 使用示例与最佳实践（Best Practices）
-
-建议在 PR 中包含：
-- 场景说明
-- 输入/输出样例
-- 风险边界与验收口径
+> 技能文件同时提供**展开的 Markdown** 和**打包的 zip**：想直接看内容就翻 `skills/`，想一键安装就下 `.zip`。
 
 ---
 
-## 9) 安全声明 / Security
+## 更新节奏
 
-本仓库不包含：
+陆续开源，按业务价值分批发布。每次更新记录变更内容和影响范围。
+
+---
+
+## 安全声明
+
+本仓库**不包含**：
+
 - 商业源码
 - Token / 密钥 / 账号密码
 - 客户敏感数据
 
-Please keep secrets in local `.env` and never commit them.
+请把密钥放在本地 `.env`，永远不要提交上来。
 
 ---
 
-## 10) SEO Keywords（场景增强版）
+## 联系我们
 
-### 中文关键词
-跨境电商、跨境出海、海外增长、独立站、B2B外贸、外贸获客、海外线索挖掘、AI数字员工、AI虚拟员工、AI数字组织、OpenClaw、Agent工作流、自动化运营、SEO优化、关键词挖掘、内容增长、社媒运营、YouTube营销、TikTok营销、X营销、Facebook营销、邮件跟进、CRM同步、报价自动化、出口合规、合同审核、风控预警
+有问题、想提需求、想聊聊跨境出海，都欢迎：
 
-### English Keywords
-cross-border eCommerce, global expansion, overseas growth, independent website, B2B lead generation, AI sales automation, OpenClaw skills, AI digital workforce, AI virtual employees, AI organization, agent workflow, SEO automation, keyword research, content operations, social media intelligence, YouTube growth, TikTok marketing, X marketing, Facebook growth, CRM sync, quotation automation, export compliance, contract review, risk monitoring
+- 微信公众号：**博屿博科技**
+- 想要更多技能包：公众号回复关键词 **Skill**
+
+也欢迎直接提 Issue 或 PR —— 新技能、场景模板、使用案例都欢迎。
 
 ---
 
-## 11) 社区与资料 / Community & Resources
+## 许可证
 
-- 公众号：**博屿博跨境**
-- 资料关键词：**Skill**
-- 仓库更新策略：单仓库、多项目、陆续开源
+[MIT](./LICENSE) —— 随便用、随便改、随便商用。
+
+> 说明：本项目在 2026 年 2 月至 3 月期间曾短暂使用 GPL-3.0，自本版本起统一改为 MIT。
+> 如果你手上有当时的副本，以那份副本附带的许可证为准。

@@ -3,27 +3,28 @@
 > AI 自动建站技能包 | AI Website Builder Skills | 零代码建站 | No-Code Website Generator
 
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skills-blue)](https://openclaw.ai)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green)](../LICENSE)
 [![中文](https://img.shields.io/badge/语言-中文-red)](README.md)
-
-**关键词 / Keywords：** `AI建站` `智能建站` `自动建站` `一键建站` `零代码建站` `无代码建站` `AI网站生成器` `Astro建站` `静态网站生成` `企业官网` `B2B网站` `品牌官网` `产品展示站` `独立站` `跨境电商` `外贸网站` `OpenClaw` `AI Agent` `Website Builder` `AI Website Generator` `No-Code` `Low-Code` `SSG` `Static Site Generator`
 
 ---
 
 ## 项目介绍 | Introduction
 
-本技能包是面向 **零基础小白** 的开源 AI 建站工具，让 OpenClaw 帮你 **全自动生成网站**。
+一套面向**零基础小白**的开源 **AI 建站**工具包：让 OpenClaw 这个 AI Agent 帮你**全自动生成网站**。
 
-适用于：
-- 🏢 **企业官网** - 公司介绍、品牌展示
-- 🛒 **B2B 网站** - 产品目录、询盘系统
-- 🌐 **独立站** - 跨境电商、DTC 品牌站
-- 📦 **产品展示站** - 产品详情、规格参数
-- 🏭 **工厂官网** - 制造业、供应商展示
-- 💼 **品牌官网** - 品牌故事、形象展示
-- 🛍️ **外贸网站** - 多语言、海外市场
+装上之后，你不用学 Astro，也不用懂静态网站生成（SSG）—— 跟 Agent 说一句「帮我建一个外贸网站」，它就会按 9 个技能的顺序，从品牌风格分析一路跑到页面合并，最后给你一个能直接上线的站点。
 
-**无需编程，对话即可建站。**
+**无需编程，对话即可建站。** 适合这些场景：
+
+- 🏢 **企业官网** —— 公司介绍、品牌展示
+- 🛒 **B2B 网站** —— 产品目录、询盘系统
+- 🌐 **独立站** —— 跨境电商、DTC 品牌站
+- 📦 **产品展示站** —— 产品详情、规格参数
+- 🏭 **工厂官网** —— 制造业、供应商展示
+- 💼 **品牌官网** —— 品牌故事、形象展示
+- 🛍️ **外贸网站** —— 多语言、海外市场
+
+生成的站点是纯静态 HTML，部署方便、加载快、对搜索引擎友好。
 
 ---
 
