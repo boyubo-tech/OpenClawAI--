@@ -83,8 +83,8 @@ OpenClaw 是一套 AI Agent 工具。**Skills（技能包）就是交给 Agent �
 
 ```bash
 # 1. 克隆本仓库
-git clone https://github.com/boyubo-tech/OpenClawAI--.git
-cd OpenClawAI--
+git clone https://github.com/boyubo-tech/openclaw-skills.git
+cd openclaw-skills
 
 # 2. 挑一个技能包，把里面的技能复制到 OpenClaw 的技能目录
 mkdir -p ~/.openclaw/skills
